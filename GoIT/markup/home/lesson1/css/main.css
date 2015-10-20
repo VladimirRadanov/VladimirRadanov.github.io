@@ -1,9 +1,16 @@
 /* main.html*/
 
+.background_page{
+	background-color: lightgrey;
+}
+
 .cover_page{
+	/*display: inline;*/
+	background-color: white;
 	margin: auto;
 	width: 500px;
-	
+	padding: 30px 30px 30px 30px;
+	border: 15px solid lightgrey;
 }
 
 h1 {

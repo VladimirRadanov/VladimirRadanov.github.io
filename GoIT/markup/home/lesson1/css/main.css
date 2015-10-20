@@ -1,0 +1,15 @@
+/* main.html*/
+
+.cover_page{
+	margin: auto;
+	width: 500px;
+	
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	border-radius: 75px;
+}

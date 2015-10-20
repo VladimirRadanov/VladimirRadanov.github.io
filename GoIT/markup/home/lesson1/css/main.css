@@ -13,6 +13,10 @@
 	border: 15px solid lightgrey;
 }
 
+.photo{
+	text-align: center;
+}
+
 .line{
 	border-bottom: 2px solid lightgrey;
 }

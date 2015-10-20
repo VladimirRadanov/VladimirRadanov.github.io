@@ -1,4 +1,4 @@
-/* main.html*/
+/* main.css*/
 
 .background_page{
 	background-color: lightgrey;
@@ -11,6 +11,10 @@
 	width: 500px;
 	padding: 30px 30px 30px 30px;
 	border: 15px solid lightgrey;
+}
+
+.line{
+	border-bottom: 2px solid lightgrey;
 }
 
 h1 {

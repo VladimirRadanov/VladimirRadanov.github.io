@@ -1,6 +1,6 @@
 /* main.css*/
 body{
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .background_page{
@@ -11,7 +11,7 @@ body{
 	/*display: inline;*/
 	background: white;
 	margin: auto;
-	width: 515px;
+	width: 415px;
 	padding: 50px;
 /*	border: 2px solid rgb(226, 226, 226);
 */	box-shadow: 0 0 5px rgb(226, 226, 226);

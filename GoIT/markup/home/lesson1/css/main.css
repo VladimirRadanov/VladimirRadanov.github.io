@@ -1,26 +1,50 @@
 /* main.css*/
+body{
+	font-size: 14px;
+}
 
 .background_page{
-	background-color: lightgrey;
+	background-color: rgb(238, 238, 238);
 }
 
 .cover_page{
 	/*display: inline;*/
-	background-color: white;
+	background: white;
 	margin: auto;
-	width: 500px;
-	padding: 30px 50px;
-	border: 15px solid lightgrey;
+	width: 515px;
+	padding: 50px;
+/*	border: 2px solid rgb(226, 226, 226);
+*/	box-shadow: 0 0 5px rgb(226, 226, 226);
+}
+
+.summary{
+border-bottom: 1px solid rgb(122, 122, 122);
+}
+
+.contacts{
+border-bottom: 1px solid rgb(122, 122, 122);
+}
+
+.goal{
+border-bottom: 1px solid rgb(122, 122, 122);
 }
 
 .center_{
 	text-align: center;
 }
 
-.line{
-	border-bottom: 2px solid lightgrey;
+.feedback{
+
 }
 
+span{
+	display: block;
+}
+
+/*.line{
+	border-bottom: 2px solid rgb(122, 122, 122);
+}
+*/
 .photo{
 	border-radius: 75px;
 }

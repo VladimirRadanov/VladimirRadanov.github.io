@@ -19,21 +19,21 @@ body{
 
 .summary{
 border-bottom: 1px solid rgb(122, 122, 122);
-padding: 0px 10px 10px 10px;
+padding: 0px 10px;
 }
 
 .contacts{
 border-bottom: 1px solid rgb(122, 122, 122);
-padding: 0px 10px 10px 10px;
+padding: 0px 10px;
 }
 
 .goal{
 border-bottom: 1px solid rgb(122, 122, 122);
-padding: 0px 10px 10px 10px;
+padding: 0px 10px;
 }
 
 .feedback{
-padding: 0px 10px 10px 10px;
+padding: 0px 10px;
 }
 
 .center_{

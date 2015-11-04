@@ -1,29 +1,16 @@
-/*test ssh*/
-*{
-	margin: 0;
-	padding: 0;
-}
-
-/*body{
-	padding: 50px 200px;
-}*/
-
 .backgroundArea{
-	background-color: white;
+	background: white;
 }
 
 .coverPage{
-	/*display: inline;*/
 	background: white;
 	margin: auto;
-	width: 1050px;
+	width: 960px;
 	padding: 50px;
-/*	border: 2px solid rgb(226, 226, 226);
-*/	box-shadow: 0 0 5px rgb(226, 226, 226);
+	box-shadow: 0 0 5px rgb(226, 226, 226);
 }
 
 .header{
-	/*margin: 40px 0px;*/
 }
 
 .menu{
@@ -33,15 +20,11 @@
 
 .menuList{
 	list-style-type: none;
-    /*margin: 0;
-    padding: 0;*/
     line-height: 0;
 }
 
 .menuItem{
 	display: inline-block;
-	/*line-height: 40px;*/
-	/*float: left;*/
 }
 
 .menuText{
@@ -58,47 +41,87 @@
 
 a:hover{
 	background-color: #464646;
-	/*border: 0px 1px;
-	border-color: white;#838383;
-	border-style: solid;*/
 	box-shadow: inset 0 0 2px rgb(226, 226, 226);
 }
 
-#navigatoin{
+.navigatoin{
 	float: left;
 	width: 290px;
 	height: 500px;
+	/*display: inline-block;*/
 }
 
 .navList{
 	list-style-type: none;
-	margin: 40px 0px;
-	width: 290px;
+	display: inline-block;
+	margin: 0px 0px;
 	float: left;
 }
 
 .navItem{
-	width: 290px;
-	float: left;
 }
 
 .navText{
 	color: #cacaca;
 	display: inline-block;
 	line-height: 40px;
-	width: 240px;
-	/*text-align: center;*/
+	width: 215px;
 	font-size: 13;
 	font-family: Times;
 	text-decoration: none;
 	padding-left: 25px;
 	border: 1px solid #c8c8c8;
 	margin-top: -1px;
-	float: left;
 }
 
-#image{
-	float: left;
-	width: 300px;
-	height: 500px;
+.image_cover{
+	float: right;
+	padding: 0 45px;
+	width: 585px;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	border: 1px solid #c8c8c8;
+}
+
+.image{
+	vertical-align: middle;
+}
+
+.imageText{
+	float: right;
+	width: 615px;
+	padding: 30px;
+	font-style: Times;
+	font-size: 13px;
+	line-height: 18px;	
+}
+
+.menuBottom{
+	margin: 40px 0px;
+	background-color: #5b5b5b;
+	overflow: auto;
+	padding: 30px;
+}
+
+.menuListBottom{
+	
+	list-style-type: none;
+    line-height: 0;
+}
+
+.menuItemBottom{
+	display: inline-block;
+}
+
+.menuTextBottom{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	line-height: 40px;
+	width: 100px;
+	text-align: center;
+	padding-right: 50px;
+	font-size: 14px;
+	font-family: Times;
 }

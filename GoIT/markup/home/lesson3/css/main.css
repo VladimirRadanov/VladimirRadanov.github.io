@@ -39,7 +39,7 @@
 	font-family: Times;
 }
 
-a:hover{
+a.menuText:hover{
 	background-color: #464646;
 	box-shadow: inset 0 0 2px rgb(226, 226, 226);
 }
@@ -72,6 +72,11 @@ a:hover{
 	padding-left: 25px;
 	border: 1px solid #c8c8c8;
 	margin-top: -1px;
+}
+
+a.navText:hover{
+	padding-left: 35px;
+	width: 205px;
 }
 
 .image_cover{
@@ -115,14 +120,30 @@ a:hover{
 
 .menuTextBottom{
 	display: inline-block;
-	color: white;
 	text-decoration: none;
 	line-height: 40px;
-	/*width: 100px;*/
-	text-align: center;
 	padding-left: 25px;
 	padding-right: 95px;
 	font-size: 13px;
 	font-family: Times;
 	color: black;
+}
+
+a.menuTextBottom:hover{
+	text-decoration: underline;
+}
+
+.menuItemBottomCorner{
+	display: inline-block;
+}
+
+.menuTextBottomCorner{
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 13px;
+	font-family: Times;
+	color: black;
+	padding-right: 25px;
+	text-align: right;
+    width: 260px;
 }

@@ -1,9 +1,24 @@
-.backgroundArea{
-	background: white;
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   clear: both;
+   line-height: 0;
+   height: 0;
+}
+
+.clearfix{
+	display: inline-block;
+}
+
+body{
+	background-color: white;
+	font-family: Times;
+	font-size: 14px;
 }
 
 .coverPage{
-	background: white;
+	background-color: white;
 	margin: auto;
 	width: 960px;
 	padding: 50px;
@@ -18,16 +33,16 @@
 	background-color: #5b5b5b;
 }
 
-.menuList{
+.menu ul{
 	list-style-type: none;
     line-height: 0;
 }
 
-.menuItem{
+.menu li{
 	display: inline-block;
 }
 
-.menuText{
+.menu a{
 	display: inline-block;
 	color: white;
 	text-decoration: none;
@@ -35,11 +50,9 @@
 	width: 100px;
 	text-align: center;
 	padding-right: 50px;
-	font-size: 14px;
-	font-family: Times;
 }
 
-a.menuText:hover{
+.menu a:hover{
 	background-color: #464646;
 	box-shadow: inset 0 0 2px rgb(226, 226, 226);
 }
@@ -47,39 +60,32 @@ a.menuText:hover{
 .navigatoin{
 	float: left;
 	width: 290px;
-	height: 500px;
-	/*display: inline-block;*/
 }
 
-.navList{
+.navigation ul{
 	list-style-type: none;
 	display: inline-block;
 	margin: 0px 0px;
 	float: left;
 }
 
-.navItem{
-}
-
-.navText{
+.navigation a{
 	color: #cacaca;
 	display: inline-block;
 	line-height: 40px;
 	width: 215px;
-	font-size: 13;
-	font-family: Times;
 	text-decoration: none;
 	padding-left: 25px;
 	border: 1px solid #c8c8c8;
 	margin-top: -1px;
 }
 
-a.navText:hover{
+.navigation a:hover{
 	padding-left: 35px;
 	width: 205px;
 }
 
-.image_cover{
+.image{
 	float: right;
 	padding: 0 45px;
 	width: 585px;
@@ -89,61 +95,51 @@ a.navText:hover{
 	border: 1px solid #c8c8c8;
 }
 
-.image{
+.image img{
 	vertical-align: middle;
 }
 
-.imageText{
+.image_text{
 	float: right;
 	width: 615px;
 	padding: 30px;
-	font-style: Times;
-	font-size: 13px;
 	line-height: 18px;
 	margin-bottom: 60px;	
 }
 
 .menuBottom{
-	clear: both;
 	background-color: #e1e1e1;
+	/*display: inline-block;*/
+	line-height: 40px;
+	/*width: 100%;*/
 }
 
-.menuListBottom{
-	
+.menuBottom ul{
+	display: inline-block;
 	list-style-type: none;
     line-height: 0;
 }
 
-.menuItemBottom{
+.menuBottom li{
 	display: inline-block;
 }
 
-.menuTextBottom{
+.menuBottom a{
 	display: inline-block;
 	text-decoration: none;
-	line-height: 40px;
 	padding-left: 25px;
 	padding-right: 95px;
-	font-size: 13px;
-	font-family: Times;
 	color: black;
+	/*margin: 0 95px 0 25px;*/
+	
 }
 
-a.menuTextBottom:hover{
+.menuBottom a:hover{
 	text-decoration: underline;
 }
 
-.menuItemBottomCorner{
-	display: inline-block;
-}
-
-.menuTextBottomCorner{
-	text-decoration: none;
-	line-height: 40px;
-	font-size: 13px;
-	font-family: Times;
-	color: black;
+.corner{
+	float: right;
+	/*margin-right: 25px;*/
 	padding-right: 25px;
-	text-align: right;
-    width: 260px;
 }

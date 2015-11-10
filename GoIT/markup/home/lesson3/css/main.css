@@ -15,6 +15,7 @@ body{
 	background-color: white;
 	font-family: Times;
 	font-size: 14px;
+	color: black;
 }
 
 .coverPage{
@@ -70,7 +71,7 @@ body{
 }
 
 .navigation a{
-	color: #cacaca;
+	color: black;
 	display: inline-block;
 	line-height: 40px;
 	width: 215px;
@@ -83,6 +84,10 @@ body{
 .navigation a:hover{
 	padding-left: 35px;
 	width: 205px;
+	background-color: rgb(249, 249, 249);
+}
+
+.image_block{
 }
 
 .image{
@@ -109,15 +114,17 @@ body{
 
 .menuBottom{
 	background-color: #e1e1e1;
-	/*display: inline-block;*/
 	line-height: 40px;
-	/*width: 100%;*/
+	display: block;
+	height: 40px;
 }
 
 .menuBottom ul{
 	display: inline-block;
 	list-style-type: none;
-    line-height: 0;
+    float: left;
+    background-color: #e1e1e1;
+	line-height: 40px;
 }
 
 .menuBottom li{
@@ -125,11 +132,12 @@ body{
 }
 
 .menuBottom a{
-	display: inline-block;
+	/*display: inline-block;*/
 	text-decoration: none;
 	padding-left: 25px;
 	padding-right: 95px;
 	color: black;
+	/*line-height: 40px;*/
 	/*margin: 0 95px 0 25px;*/
 	
 }
@@ -139,7 +147,10 @@ body{
 }
 
 .corner{
+	background-color: #e1e1e1;
+	display: inline-block;
 	float: right;
-	/*margin-right: 25px;*/
 	padding-right: 25px;
+	/*margin-right: 25px;*/
+	/*line-height: 40px;*/
 }

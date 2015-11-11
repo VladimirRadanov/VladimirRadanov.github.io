@@ -68,10 +68,13 @@ body{
 	display: inline-block;
 	margin: 0px 0px;
 	/*float: left;*/
+
 }
 
 .navigation li{
-width: 290px;	
+width: 240px;
+border: 1px solid #c8c8c8;
+margin-top: -1px;	
 }
 
 .navigation a{
@@ -81,8 +84,8 @@ width: 290px;
 	/*width: 215px;*/
 	text-decoration: none;
 	padding-left: 25px;
-	border: 1px solid #c8c8c8;
-	margin-top: -1px;
+	/*border: 1px solid #c8c8c8;*/
+	/*margin-top: -1px;*/
 }
 
 .navigation a:hover{

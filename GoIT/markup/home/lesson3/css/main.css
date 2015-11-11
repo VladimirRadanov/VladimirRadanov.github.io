@@ -1,14 +1,14 @@
-.clearfix:after {
+.clearfix{
+	display: inline-block;
+}
+
+.clearfix:after{
    content: " ";
    visibility: hidden;
    display: block;
    clear: both;
    line-height: 0;
    height: 0;
-}
-
-.clearfix{
-	display: inline-block;
 }
 
 body{
@@ -67,14 +67,18 @@ body{
 	list-style-type: none;
 	display: inline-block;
 	margin: 0px 0px;
-	float: left;
+	/*float: left;*/
+}
+
+.navigation li{
+width: 290px;	
 }
 
 .navigation a{
 	color: black;
 	display: inline-block;
 	line-height: 40px;
-	width: 215px;
+	/*width: 215px;*/
 	text-decoration: none;
 	padding-left: 25px;
 	border: 1px solid #c8c8c8;
@@ -84,16 +88,18 @@ body{
 .navigation a:hover{
 	padding-left: 35px;
 	width: 205px;
-	background-color: green;
+	background-color: rgb(249, 249, 249);
 }
 
 .image_block{
+	float: right;
+	width: 615px;
 }
 
 .image{
-	float: right;
+	/*float: right;*/
 	padding: 0 45px;
-	width: 585px;
+	/*width: 585px;*/
 	height: 400px;
 	line-height: 400px;
 	text-align: center;
@@ -105,24 +111,25 @@ body{
 }
 
 .image_text{
-	float: right;
-	width: 615px;
+	/*float: right;*/
+	/*width: 615px;*/
 	padding: 30px;
 	line-height: 18px;
 	margin-bottom: 60px;	
 }
 
 .menuBottom{
+	clear: both;
 	background-color: #e1e1e1;
 	line-height: 40px;
-	display: block;
+	/*display: block;*/
 	height: 40px;
 }
 
 .menuBottom ul{
 	display: inline-block;
 	list-style-type: none;
-    float: left;
+    /*float: left;*/
     background-color: #e1e1e1;
 	line-height: 40px;
 }

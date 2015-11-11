@@ -84,7 +84,7 @@ body{
 .navigation a:hover{
 	padding-left: 35px;
 	width: 205px;
-	background-color: rgb(249, 249, 249);
+	background-color: green;
 }
 
 .image_block{

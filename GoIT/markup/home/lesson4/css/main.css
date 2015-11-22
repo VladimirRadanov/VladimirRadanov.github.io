@@ -109,24 +109,80 @@ height: 1060px;
  }
 
 
-.menu{
+.menu li a, .menu{
 font-size: 14px;
 font-family: Tahoma;
 color: white;
 background-color: rgb(50, 50, 50);
 line-height: 25px;
+}
+
+.menu{
+float: left;
+width: 100%;
+list-style: none;
+
 /*text-align: center;*/
 /*width: 100%;*/
 }
 
 .menu ul{
-width: 100%;
+/*width: 100%;*/
 }
 
 .menu li{
- 	display: inline-block;
+ 	/*display: inline-block;
  	/*float:left;*/
+	/*margin-right:10px;
+	position:relative;*/
+	/*display:block;*/
+
+	float:left;
 	margin-right:10px;
 	position:relative;
-	/*display:block;*/
+	display:block;
  }
+
+ .menu li a{
+ 	display: block;
+ 	text-decoration: none;
+
+ }
+
+ .menu ul li ul{
+ 	list-style: none;
+ 	position: absolute;
+ 	left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+	opacity:0; /* Устанавливаем начальное состояние прозрачности */
+	-webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+ }
+
+ .menu ul li ul li{
+ 	padding-top:1px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+	float:none;
+ }
+
+ .menu ul li ul li a{
+ 	white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+	display:block;
+ }
+
+ .menu ul li:hover ul{
+ 	/* Выводим выпадающий пункт при наведении курсора */
+	left:0; /* Приносим его обратно на экран, когда нужно */
+	opacity:1; /* Делаем непрозрачным */
+ }
+
+ .menu ul li:hover a{
+ 	/* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+	text-decoration:none;
+	-webkit-transition:-webkit-transform 0.075s linear;
+ }
+
+ .menu ul li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+	background:#333;
+	background:rgba(51,51,51,0.75); /* Будет полупрозрачным */
+	text-decoration:underline;
+	-moz-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+}
